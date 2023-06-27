@@ -6956,7 +6956,6 @@ void EMAC0_IRQHandler(void) {
 struct mip_driver mip_driver_tm4c = {mip_driver_tm4c_init, mip_driver_tm4c_tx,
                                      mip_driver_rx, mip_driver_tm4c_up};
 #endif
-#endif
 
 #ifdef MG_ENABLE_LINES
 #line 1 "mip/driver_w5500.c"
