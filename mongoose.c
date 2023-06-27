@@ -6699,7 +6699,6 @@ struct mip_driver mip_driver_stm32h = {mip_driver_stm32h_init,
                                        mip_driver_stm32h_tx, mip_driver_rx,
                                        mip_driver_stm32h_up};
 #endif
-#endif
 
 #ifdef MG_ENABLE_LINES
 #line 1 "mip/driver_tm4c.c"
