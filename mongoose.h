@@ -626,7 +626,7 @@ struct timeval {
 #endif
 
 #ifndef MG_ENABLE_MBEDTLS
-#define MG_ENABLE_MBEDTLS 0
+#define MG_ENABLE_MBEDTLS 1
 #endif
 
 #ifndef MG_ENABLE_OPENSSL
